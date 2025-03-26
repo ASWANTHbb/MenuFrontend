@@ -6,11 +6,11 @@ import Frame from '../assets/Frame.png'
 import Frame1 from '../assets/Frame1.png'
 import { Link } from 'react-router-dom'
 import { SERVER_URL } from "../api/ServerUrl"
-import cocktail from '../assets/cocktail1.png'
-import cocktail1 from '../assets/cocktail.png'
+import cocktail2 from '../assets/cocktail1.png'
+import cocktail3 from '../assets/Cocktail.png'
 import Footer from '../components/Footer'
 
-function Home() {
+function FoodMenu() {
     const [menu, setMenu] = useState([]);
     const [filteredMenu, setFilteredMenu] = useState([]);
     const location = useLocation();
@@ -70,7 +70,7 @@ function Home() {
                     <div className="col-md-10 p-4 position-relative">
                         {/* Cocktail Images */}
                         <img 
-                            src={cocktail} 
+                            src={cocktail2} 
                             alt="cocktail" 
                             style={{ 
                                 position: 'absolute', 
@@ -82,7 +82,7 @@ function Home() {
                             }} 
                         />
                         <img 
-                            src={cocktail1} 
+                            src={cocktail3} 
                             alt="cocktail" 
                             style={{ 
                                 position: 'absolute', 
@@ -134,4 +134,4 @@ function Home() {
     )
 }
 
-export default Home;
+export default FoodMenu;

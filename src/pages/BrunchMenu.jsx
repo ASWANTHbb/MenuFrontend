@@ -10,10 +10,10 @@ import { faFacebook, faInstagram, faTwitter, faYoutube } from '@fortawesome/free
 import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
 import { SERVER_URL } from "../api/ServerUrl";
-import cocktail from '../assets/cocktail1.png'
-import cocktail1 from '../assets/cocktail.png'
+import cocktail4 from '../assets/cocktail1.png'
+import cocktail5 from '../assets/Cocktail.png'
 
-function Home() {
+function BrunchMenu() {
     const [menu, setMenu] = useState([]);
 
     useEffect(() => {
@@ -69,7 +69,7 @@ function Home() {
                     <div className="col-md-10 p-4 position-relative">
     {/* Cocktail Image on the Top-Left Corner */}
     <img 
-        src={cocktail} 
+        src={cocktail4} 
         alt="cocktail" 
         style={{ 
             position: 'absolute', 
@@ -81,7 +81,7 @@ function Home() {
         }} 
     />
      <img 
-        src={cocktail1} 
+        src={cocktail5} 
         alt="cocktail" 
         style={{ 
             position: 'absolute', 
@@ -132,4 +132,4 @@ function Home() {
     )
 }
 
-export default Home;
+export default BrunchMenu;
