@@ -11,7 +11,7 @@ import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
 import { SERVER_URL } from "../api/ServerUrl";
 import cocktail from '../assets/cocktail1.png'
-import cocktail1 from '../assets/cocktail.png'
+import cocktail1 from '../assets/Cocktail.png'
 
 function Home() {
     const [menu, setMenu] = useState([]);

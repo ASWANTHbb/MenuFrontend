@@ -7,7 +7,7 @@ import Frame1 from '../assets/Frame1.png'
 import { Link } from 'react-router-dom'
 import { SERVER_URL } from "../api/ServerUrl"
 import cocktail2 from '../assets/cocktail1.png'
-import cocktail3 from '../assets/cocktail.png'
+import cocktail3 from '../assets/Cocktail.png'
 import Footer from '../components/Footer'
 
 function Home() {
