@@ -10,7 +10,7 @@ import cocktail2 from '../assets/cocktail1.png'
 import cocktail3 from '../assets/Cocktail.png'
 import Footer from '../components/Footer'
 
-function Home() {
+function FoodMenu() {
     const [menu, setMenu] = useState([]);
     const [filteredMenu, setFilteredMenu] = useState([]);
     const location = useLocation();
@@ -134,4 +134,4 @@ function Home() {
     )
 }
 
-export default Home;
+export default FoodMenu;

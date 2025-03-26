@@ -13,7 +13,7 @@ import { SERVER_URL } from "../api/ServerUrl";
 import cocktail4 from '../assets/cocktail1.png'
 import cocktail5 from '../assets/Cocktail.png'
 
-function Home() {
+function BrunchMenu() {
     const [menu, setMenu] = useState([]);
 
     useEffect(() => {
@@ -132,4 +132,4 @@ function Home() {
     )
 }
 
-export default Home;
+export default BrunchMenu;
