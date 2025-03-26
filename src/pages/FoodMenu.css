@@ -1,0 +1,65 @@
+.start{
+    background-image: url('../assets/back.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 50vh; 
+    width: 100%; 
+}
+.menu{
+    text-shadow: 2px 2px 2px orange;
+    
+}
+
+.sec{
+    background-image: url('../assets/second.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 15vh; 
+    width: 100%; 
+}
+.btn-custom {
+    width: 100px;        /* Ensures all buttons are the same width */
+    height: 40px;        /* Ensures all buttons are the same height */
+    border: 1px solid #0796EF;
+    background: black; /* Removes background */
+    color: white;        /* White text color */
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #0796EF;
+    color: white;
+}
+.third{
+    background-image: url('../assets/third.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 80vh; 
+    width: 100%;
+}
+.bru{
+   
+        margin: 20px 0; /* Adds space above and below */
+        padding: 10px 0; /* Optional: Adds more spacing inside */
+      
+      
+}
+/* Center paragraph on smaller screens */
+.menu-paragraph {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: white;
+    text-align: left; 
+    transition: 0.3s;
+    padding: 0.3rem;
+  }
+  
+  /* On smaller screens (less than 768px), center the paragraph */
+  @media (max-width: 768px) {
+    .menu-paragraph {
+      text-align: center;
+    }
+  }
+  

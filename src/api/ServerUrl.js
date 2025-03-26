@@ -1,0 +1,1 @@
+export const SERVER_URL = "https://menubackend-t6lm.onrender.com"; 

@@ -1,0 +1,27 @@
+.custom-navbar,
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand,
+.custom-navbar .dropdown-item {
+  color:white!important;
+  background-color:transparent;
+ 
+  
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .dropdown-item:hover,
+.nav-hover:hover {
+  color: #0796EF !important;
+}
+
+
+.nav-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Make sure it spans the whole width */
+}
+
+
+
+
